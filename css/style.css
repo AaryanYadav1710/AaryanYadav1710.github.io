@@ -1,0 +1,517 @@
+body{
+    background-image: url(bg.jpeg);
+    animation: gradientShift 15s ease infinite alternate;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header{
+    border-radius: 40px;
+    background-color: #2a2a2b;
+    padding: 20px 0px;
+    background:  linear-gradient(90deg, #1A002C 0%, #080A1F 50%, #082020 100%);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+}
+.logo1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.navbar{
+    
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    justify-content: space-evenly;
+    margin: 0;
+    padding-bottom: 8px;
+transition: all 0.2s ease-in-out;
+}    
+.navbar button:hover{
+    box-shadow: 0px 0px 5px 2px rgb(97, 145, 255);
+    transition: all 0.2s ease-in-out;
+}
+.about{
+    text-decoration: none;
+    color: white;
+    font-family: "Alkatra", system-ui;
+    transition: all 0.3s ease-in-out;
+
+}
+.skills{
+    text-decoration: none;
+    color: white;
+    font-family: "Alkatra", system-ui;
+    transition: all 0.3s ease-in-out;
+}
+.projects{
+    text-decoration: none;
+    color: white;
+    font-family: "Alkatra", system-ui;
+    transition: all 0.3s ease-in-out;
+}
+.contacts{
+    text-decoration: none;
+    color: white;
+    font-family: "Alkatra", system-ui;
+    transition: all 0.3s ease-in-out;
+}
+.logo{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-family: "Alkatra", system-ui;
+    transition: all 0.3s ease-in-out;
+}
+.logo:hover{
+    transform: scale(1.2);
+    letter-spacing: 5px;
+    transition: all 0.3s ease-in-out;
+}
+.b1{
+        border-radius: 20px;
+        transform: scale(1.8);
+        outline: none;
+        border: 2px solid rgb(76, 171, 254);
+        background-color: #2a2a2b;
+        padding: 0px 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.b1:hover{
+    transform: scale(1.85);
+    transition: all 0.3s ease-in-out;
+}
+.b2{
+    border-radius: 20px;
+        transform: scale(1.8);
+        outline: none;
+        border: 2px solid rgb(76, 171, 254);
+        background-color: #2a2a2b;
+        padding: 0px 15px;
+}
+.b2:hover{
+    transform: scale(1.85);
+    transition: all 0.3s ease-in-out;
+}
+.b3{
+    border-radius: 20px;
+        transform: scale(1.8);
+        outline: none;
+        border: 2px solid rgb(76, 171, 254);
+        background-color: #2a2a2b;
+        padding: 0px 15px;
+}
+.b3:hover{
+    transform: scale(1.85);
+    transition: all 0.3s ease-in-out;
+}
+.b4{
+    border-radius: 20px;
+        transform: scale(1.8);
+        outline: none;
+        border: 2px solid rgb(76, 171, 254);
+        background-color: #2a2a2b;
+        padding: 0px 15px;
+}
+.b4:hover{
+    transform: scale(1.85);
+    transition: all 0.3s ease-in-out;
+}
+.home1 h1{
+    text-align: left;
+    font-family: "Merienda", cursive;
+    color: white;
+    padding-left: 20px;
+    font-size: 52px;
+}
+.home1{
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 25px;
+    align-items: center;
+    width: 95%;
+    background: radial-gradient(circle, #333554, #262949);
+    height: 400px;
+    transform: translate(40px, 0px);
+    animation: home 1s ease-in-out;
+    position: relative;
+    box-shadow: 0px 15px 6px 0px rgb(17, 14, 30);
+    margin-top: 20px;
+
+}
+@keyframes home {
+    from{
+        opacity: 0;
+        transform: translate(4000px, 0px);
+    }
+    to{
+        opacity: 1;
+        transform: translate(40px, 0px);
+    }
+}
+@keyframes logorotate{
+    from{
+        transform: rotate(0deg);
+        opacity: 0;
+        transform: scale(0);
+    }
+    to{
+        transform: rotate(720deg);
+        opacity: 1;
+        transform: scale(1);   }
+}
+.mainlogo img{
+    border-radius: 45px;
+    width: 400px;
+    height: 400px;
+    justify-content: right;
+    align-items: right;
+    display: flex;
+    animation: logorotate 1.5s ease-in-out;
+    box-shadow: 0px 0px 15px 2px rgb(34, 27, 62);
+}
+.home1 p{
+    font-family: "Josefin Sans", sans-serif;
+    color: whitesmoke;
+    padding-right: 40px;
+    font-size: 25px;
+}
+.projbtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+
+}
+.projbtn button{
+    font-family: "Merienda", cursive;
+    font-size: 25px;
+    border-radius: 20px;
+    outline: none;
+    border: 2px solid rgb(76, 171, 254);
+    background-color: #2a2a2b;
+    padding: 0px 30px;
+}
+.projbtn button:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 5px 2px rgb(97, 145, 255);
+    transition: all 0.2s ease-in-out;
+}
+.list{
+    list-style-image: url(icons8-arrow-30.png);
+    color: white;
+    padding-left: 60px;
+}
+.aboutme{
+    display: flex;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 40px;
+
+    border-radius: 25px;
+
+    width: 95%;
+    background: radial-gradient(circle, #333554, #262949);
+    height: 400px;
+    transform: translate(40px, 0px);
+    position: relative;
+    box-shadow: 0px 15px 6px 0px rgb(17, 14, 30);
+    margin-top: 40px;
+    animation: homee 1.5s ease-in-out;
+}
+.aboutme h2{
+    text-align: left;
+    padding-left: 20px;
+    color: white;
+    font-family: "Merienda", cursive;
+    font-size: 42px;
+    padding-top: 0px;
+
+}
+.aboutme h3{
+    text-align: left;
+    font-family: "Merienda", cursive;
+    font-size: 37px;
+    padding-top: 0px;
+    color: #9ba1fc;
+    padding-left: 20px;
+
+}
+@keyframes homee{
+    from{
+        opacity: 0;
+        transform: translate(-4000px, 0px);
+    }
+    to{
+        opacity: 1;
+        transform: translate(40px, 0px);
+    }
+}.aboutimage img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 350px;
+    border-radius: 35px;
+    border: 3px solid white;
+    transform: translate(0px, 25px);
+    margin-left: 20px;
+}
+.aboutme1{
+    width: 80%;
+    height: auto;
+}
+.aboutme1 p{
+    padding-left: 20px;
+    font-family: "Josefin Sans", sans-serif;
+    color: whitesmoke;
+    font-size: 25px;
+}
+.p2{
+    display: flex;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 20px;
+}
+.p2{
+    display: flex;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 40px;
+
+    border-radius: 25px;
+
+    width: 95%;
+    background: radial-gradient(circle, #333554, #262949);
+    height: 450px;
+    transform: translate(40px, 0px);
+    position: relative;
+    box-shadow: 0px 15px 6px 0px rgb(17, 14, 30);
+    margin-top: 40px;
+    animation: home 1.5s ease-in-out;
+}
+.im2 img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 350px;
+    border-radius: 35px;
+    border: 3px solid white;
+    transform: translate(0px, 45px);
+    margin-right: 20px;
+}
+.p22 h2{
+    text-align: left;
+    font-family: "Merienda", cursive;
+    font-size: 37px;
+    padding-top: 0px;
+    color: #9ba1fc;
+    padding-left: 20px;
+}
+.p22 p{
+    padding-left: 20px;
+    font-family: "Josefin Sans", sans-serif;
+    color: whitesmoke;
+    font-size: 25px;
+}
+.foot{
+    text-align: left;
+    border-radius: 25px;
+    width: 95%;
+    background: radial-gradient(circle, #333554, #262949);
+    height: 100px;
+    transform: translate(40px, 0px);
+    position: relative;
+    box-shadow: 0px 15px 6px 0px rgb(17, 14, 30);
+    margin-top: 20px;
+    text-spacing-trim: 1px;
+    color: white;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+@keyframes gradientShift{
+    0%{
+        background-position: 0% 50%;
+    }
+    100%{
+        background-position: 100% 50%;
+    }
+}
+.h11{
+    text-align: left;
+    padding-left: 60px;
+    color: white;
+    font-family: "Merienda", cursive;
+    font-size: 22px;
+    padding-top: 10px;
+
+}
+.skii{
+    display: flex;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 40px;
+    border-radius: 25px;
+    width: 95%;
+    background: radial-gradient(circle, #333554, #262949);
+    height: 600px;
+    transform: translate(40px, 0px);
+    position: relative;
+    box-shadow: 0px 15px 6px 0px rgb(17, 14, 30);
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.h22{
+    text-align: left;
+    color: white;
+    font-family: "Merienda", cursive;
+    font-size: 35px;
+    padding-left: 20px;
+}
+.htm b{
+    text-align: left;
+    color: #9ba1fc;
+    font-family: "Merienda", cursive;
+    font-size: 25px;
+}
+.htm p{
+    padding-left: 20px;
+    font-family: "Josefin Sans", sans-serif;
+    color: whitesmoke;
+    font-size: 20px;
+    padding-right: 10px;
+}
+.htm{
+    background-color: #333554;
+    border-radius: 20px;
+}
+.css b{
+    text-align: left;
+    color: #9ba1fc;
+    font-family: "Merienda", cursive;
+    font-size: 25px;
+}
+.css p{
+    padding-left: 20px;
+    font-family: "Josefin Sans", sans-serif;
+    color: whitesmoke;
+    font-size: 20px;
+    padding-right: 10px;
+}
+.css{
+    background-color: #333554;
+    border-radius: 20px;
+}
+.videdit b{
+    text-align: left;
+    color: #9ba1fc;
+    font-family: "Merienda", cursive;
+    font-size: 25px;
+}
+.videdit p{
+    padding-left: 20px;
+    font-family: "Josefin Sans", sans-serif;
+    color: whitesmoke;
+    font-size: 20px;
+    padding-right: 10px;
+}
+.videdit{
+    background-color: #333554;
+    border-radius: 20px;
+}
+.graedit b{
+    text-align: left;
+    color: #9ba1fc;
+    font-family: "Merienda", cursive;
+    font-size: 25px;
+}
+.graedit p{
+    padding-left: 20px;
+    font-family: "Josefin Sans", sans-serif;
+    color: whitesmoke;
+    font-size: 20px;
+    padding-right: 10px;
+}
+.graedit{
+    background-color: #333554;
+    border-radius: 20px;
+}
+@property --angle{
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+}
+.htm::after, .htm::before{
+    content: "";
+    position: absolute;
+    height: 95%;
+    width: 24%;
+    background: red;
+    background-image: conic-gradient(from var(--angle),#ff4545, #00ff99, #006aff, #ff0095);
+    top: 50%;
+    left: 50%;
+    translate: -204% -50%;
+    z-index: -1;
+    border-radius: 20px;
+    animation: 3s spin linear infinite;
+}
+
+@keyframes spin{
+    from{
+        --angle: 0deg;
+    }
+    to{
+        --angle: 360deg;
+    }
+}
+.css::after, .htm::before{
+    content: "";
+    position: absolute;
+    height: 95%;
+    width: 22%;
+    background: red;
+    background-image: conic-gradient(from var(--angle),#ff4545, #00ff99, #006aff, #ff0095);
+    top: 50%;
+    left: 50%;
+    translate: -105% -50%;
+    z-index: -1;
+    border-radius: 20px;
+    animation: 3s spin linear infinite;
+}
+
+.videdit::after, .htm::before{
+    content: "";
+    position: absolute;
+    height: 95%;
+    width: 23%;
+    background: red;
+    background-image: conic-gradient(from var(--angle),#ff4545, #00ff99, #006aff, #ff0095);
+    top: 50%;
+    left: 50%;
+    translate: 3% -50%;
+    z-index: -1;
+    border-radius: 20px;
+    animation: 3s spin linear infinite;
+}
+
+.graedit::after, .htm::before{
+    content: "";
+    position: absolute;
+    height: 95%;
+    width: 24%;
+    background: red;
+    background-image: conic-gradient(from var(--angle),#ff4545, #00ff99, #006aff, #ff0095);
+    top: 50%;
+    left: 50%;
+    translate: 105% -50%;
+    z-index: -1;
+    border-radius: 20px;
+    animation: 3s spin linear infinite;
+}

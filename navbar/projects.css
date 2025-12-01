@@ -1,0 +1,93 @@
+body{
+    background-image: url(bg.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.projj{
+    display: flex;
+    display: grid;
+    grid-template-rows: auto auto;
+    row-gap: 0px;
+
+    border-radius: 25px;
+
+    width: 95%;
+    background: radial-gradient(circle, #333554, #262949);
+    height: 400px;
+    transform: translate(40px, 0px);
+    position: relative;
+    box-shadow: 0px 15px 6px 0px rgb(17, 14, 30);
+    margin-top: 40px;
+}
+.proj{
+    text-align: center;
+    padding-top: 0px;
+    color: white;
+    font-family: "Merienda", cursive;
+    font-size: 32px;
+}
+.li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: aliceblue;
+    font-size: 22px;
+    transform: translate(40px, 0px);
+}
+.b1{
+        border-radius: 20px;
+        transform: scale(1.8);
+        outline: none;
+        border: 2px solid rgb(76, 171, 254);
+        background-color: #2a2a2b;
+        padding: 0px 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.b1:hover{
+    transform: scale(1.85);
+    transition: all 0.3s ease-in-out;
+}
+.b2{
+    border-radius: 20px;
+        transform: scale(1.8);
+        outline: none;
+        border: 2px solid rgb(76, 171, 254);
+        background-color: #2a2a2b;
+        padding: 0px 15px;
+}
+.b2:hover{
+    transform: scale(1.85);
+    transition: all 0.3s ease-in-out;
+}
+.b3{
+    border-radius: 20px;
+        transform: scale(1.8);
+        outline: none;
+        border: 2px solid rgb(76, 171, 254);
+        background-color: #2a2a2b;
+        padding: 0px 15px;
+}
+.b3:hover{
+    transform: scale(1.85);
+    transition: all 0.3s ease-in-out;
+}
+.b4{
+    border-radius: 20px;
+        transform: scale(1.8);
+        outline: none;
+        border: 2px solid rgb(76, 171, 254);
+        background-color: #2a2a2b;
+        padding: 0px 15px;
+}
+.b4:hover{
+    transform: scale(1.85);
+    transition: all 0.3s ease-in-out;
+}
+.links a{
+    text-decoration: none;
+    color: white;
+    font-family: "Alkatra", system-ui;
+}
